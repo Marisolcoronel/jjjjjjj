@@ -17,9 +17,9 @@ public class Notas {
      Scanner sc=new Scanner(System.in);
      //cant de notas
          System.out. print("Ingrese el numero notas que se va ingresar:");
-         int N= sc.nextInt();
+         //int N= sc.nextInt();
          
-          float [] notas=new float[N];
+          float [] notas=new float[2];
            System.out. println("Ingrese las notas:");
           //for para la posicion
           
@@ -33,26 +33,15 @@ public class Notas {
              float suma=0;
        for (int i = 0; i <notas.length; i++){
            suma=suma+notas[i];
-       }
-       float promedio=suma/N;
-       System.out. print("El promedio es:"+promedio); 
-            
-        }
-        else{
-             System.out. print("no es valido"); 
-        }
-            
-        }
-            
-        
-            
-        
-        // calcula el promedio
-         {
-            
        
-         }     
-       }
+       
+            
+        }
+            
+        
+        }
+    }
+}
        
    
         // TODO code application logic here
